@@ -21,7 +21,7 @@ var tongLuong = 0;
 luong1Ngay = 100000;
 ngayLam = 26;
 tongLuong = luong1Ngay * ngayLam;
-tongLuong = tongLuong.toLocaleString('vi', {style : 'currency', currency : 'VND'});
+tongLuong = tongLuong.toLocaleString();
 console.log("Tong luong: " + tongLuong);
 
 // Bài 2: Tính giá trị trung bình
@@ -68,7 +68,7 @@ var usd = 23500;
 var tienDoi = 37;
 var tongTien = 0;
 tongTien = usd * tienDoi;
-tongTien = tongTien.toLocaleString('vi', {style : 'currency', currency : 'VND'});
+tongTien = tongTien.toLocaleString();
 console.log("So tien sau khi quy doi: " + tongTien);
 
 // Bài 4: Tính diện tích và chu vi hình chữ nhật
